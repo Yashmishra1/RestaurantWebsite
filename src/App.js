@@ -1,15 +1,8 @@
+import React from 'react'
+import Restaurant from './component/basics/restaurant'
 
- const App = () => {
-  return (
-    <>
-    <Name/>
-    <h1 className="myclassName">Welcome to learn React js - yash Mishra </h1>
-    <p>Awesome</p>
-    </>
-  )
+const App = () => {
+  return <Restaurant />
 }
 
-const Name = () => {
-  return <h1>Yash Mishra</h1>;
-}
 export default App;
